@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "vibrationmod",
+  "version": "1.0.0",
+  "name": "Vibration Mod",
+  "description": "Adds vibration feedback for block breaking and placing actions.",
+  "authors": [
+    "alihantoleuov23"
+  ],
+  "contact": {
+    "homepage": "https://example.com",
+    "sources": "https://github.com/alihantoleuov23/vibrationmod"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.alihantoleuov23.vibrationmod.VibrationMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.21.11",
+    "fabric-api": "*"
+  }
+}
